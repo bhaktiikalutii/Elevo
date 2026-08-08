@@ -1,0 +1,102 @@
+.candidate-page {
+  min-height: 100vh;
+  background: #111216;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 80px 24px;
+}
+
+.candidate-container {
+  width: 100%;
+  max-width: 650px;
+}
+
+.candidate-header {
+  margin-bottom: 48px;
+}
+
+.form-tag {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8d8d95;
+  margin-bottom: 20px;
+}
+
+.candidate-header h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.candidate-header p {
+  color: #92929a;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.candidate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 15px 16px;
+
+  background: #18191e;
+  color: #ffffff;
+
+  border: 1px solid #303138;
+  border-radius: 6px;
+
+  font-size: 15px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #ffffff;
+}
+
+.form-group input::placeholder {
+  color: #666870;
+}
+
+.start-button {
+  margin-top: 12px;
+
+  padding: 16px;
+
+  background: #ffffff;
+  color: #111216;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: transform 0.2s ease;
+}
+
+.start-button:hover {
+  transform: translateY(-2px);
+}

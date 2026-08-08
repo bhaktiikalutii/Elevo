@@ -1,0 +1,160 @@
+.interview-page {
+  min-height: 100vh;
+  background: #111216;
+  color: #ffffff;
+}
+
+.interview-header {
+  height: 70px;
+  padding: 0 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #262626;
+}
+
+.interview-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.interview-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #8f8f99;
+  font-size: 13px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.question-count {
+  color: #8f8f99;
+  font-size: 13px;
+}
+
+.interview-container {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+
+  padding: 70px 24px 40px;
+}
+
+.interview-intro {
+  margin-bottom: 50px;
+}
+
+.interview-intro p {
+  color: #8f8f99;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 14px;
+}
+
+.interview-intro h1 {
+  font-size: 52px;
+  letter-spacing: -2px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  margin-bottom: 45px;
+}
+
+.message-row {
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+}
+
+.message-row.user {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+
+.message-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #666870;
+
+  margin-bottom: 8px;
+}
+
+.message-bubble {
+  padding: 18px 20px;
+
+  border: 1px solid #303138;
+  border-radius: 10px;
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.message-row.ai .message-bubble {
+  background: #18191e;
+}
+
+.message-row.user .message-bubble {
+  background: #ffffff;
+  color: #111216;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+
+  border: 1px solid #303138;
+  border-radius: 8px;
+
+  padding: 8px;
+  background: #18191e;
+}
+
+.message-form input {
+  flex: 1;
+
+  padding: 14px;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.message-form input::placeholder {
+  color: #666870;
+}
+
+.message-form button {
+  width: 48px;
+  border: none;
+  border-radius: 6px;
+
+  background: #ffffff;
+  color: #111216;
+
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.interview-hint {
+  text-align: center;
+  color: #555760;
+  font-size: 12px;
+  margin-top: 18px;
+}
